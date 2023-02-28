@@ -1,0 +1,147 @@
+<!DOCTYPE html>     
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV en HTML</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" type= "image/x-icon" href="./Imagenes/cv.png">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+               
+                <ul>
+                    <li><a href="#hero" class="active">Inicio</a></li>
+                    <li><a href="#estudios" class="active">Información </a></li>
+                    <li><a href="#projects" class="active">Experiencia</a></li>
+                    <li><a href="#Contact" class="active">Contacto</a></li>
+                    
+                </ul>
+            </nav>   
+        </header>
+        <main>
+            <section id="hero">
+                <h1><MARQUEE width="80%">Cintia Estefanía Mendez</MARQUEE></h1>
+                <h2>Contador Publico</h2>
+               <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            </section>
+        
+            <section id="estudios">
+                <h2>Informacion General</h2>
+                    <div>
+
+                <fieldset><legend>Datos Personales</legend>
+                  
+                <ul>
+                    <li><span>Nombre:</span>  Cintia Estefanía Mendez</li>
+                    <li><span>Edad:</span>    34 años</li>
+                    <li><span>Fecha de Nacimiento:</span>  29 de Enero 1989</li>
+                    <li><span>Nacionalidad:</span>  Argentina</li> 
+                    <li><span>Telefono:</span> (0266) - 154222222</li>
+                    <li><span>Correo Electronico:</span>cintia.mendez@gmail.com</li>
+                </ul>
+                   
+                </fieldset>
+        
+                <fieldset><legend>Formación Academica</legend>
+                      
+                    <ul>
+                        <li><span> Titulo:</span> Contador Publico</li>
+                        <li><span>Institución:</span> Universidad Catolica de Cuyo</li>
+                        <li><span>Promedio:</span> 7,43</li>
+                        <li><span>Titulo:</span>  Ingles Nivel 3</li>
+                        <li><span>Institución:</span>IDI (Instituto de Idiomas)</li>
+                        
+                    </ul>
+
+                </fieldset>   
+                    </div>
+                   
+               </section>
+
+           </section>
+            <section id="projects">
+                <h2>Experiencia Laboral</h2>
+
+                <div class="projects-list">
+                    <div class="project-details">
+                        <img src="./Imagenes/Callcenter.jpg">
+                        <h3>Adval S.A. Call-Center</h3>
+                        <p>Team Leader. Cordinación de equipos de trabajo.</p>
+
+                    </div>
+
+                <div class="projects-list">
+                    <div class="project-details">
+                        <img src="./Imagenes/euro-diesel-san-luis-s.r.l..jpg">
+                        <h3>Euro Diesel San Luis</h3>
+                         <p>Administrativa-Contable.</p>
+                        <p>Encargada de Compras.Registro de pagos y cobranzas</p>
+                        
+
+
+                    </div>
+
+                    <div class="projects-list">
+                        <div class="project-details">
+                            <img src="./Imagenes/corazahierros.jpg">
+                            <h3>Coraza Hierros S.A.</h3>
+                            <p>Encargada de Tesorería.</p>
+                            <p>Control de ingresos y egresos.</p>
+                        
+                        </div>
+
+                    <div class="projects-list">
+                            <div class="project-details">
+                                <img src="./Imagenes/Slots.jpg">
+                                <h3>Grupo Slots S.A.</h3>
+                                <p>Contadora de Multicash.</p>
+                                <p>Control de las ventas y conciliacines bancarias.</p>
+                            
+                            </div>
+                    </div>  
+                </section>
+                    <section id="Contact">
+                        <h2>Contáctese Conmigo</h2>
+
+                        <form id="form">
+                            <div>
+                                <label>Nombre</label>
+                                <input type="text" class="field" id="name" placeholder="Ingresa tu Nombre">
+                                <span class="form_line"></span>
+                            </div>
+                            <div>
+                                <label>Telefono</label>
+                                <input type="number" id="number" placeholder="Ingresa tu Telefono">
+                                <span class="form_line"></span>
+                            </div>
+                            <div>
+                                <label>Correo Electronico</label>
+                                <input type="email"  id="email" placeholder="Ingresa tu E-mail">
+                                <span class="form_line"></span>
+                            </div>
+                            <div>
+                                <label>Mensaje</label>
+                                <textarea></textarea>
+                            </div>
+                            <p id="demo">Deja tu Mensaje.</p>
+
+                            <button type="button" id="boton">Enviar</button>
+
+                        
+                        </form>
+
+                    </section>
+        </main>
+        <footer></footer>
+        <script src="funciones.js"></script>
+    </body>
+
+</html>

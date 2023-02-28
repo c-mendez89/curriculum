@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,200&family=Yellowtail&display=swap');
+*{
+font-family: "Titillium Web";
+margin: 0;
+padding: 0;
+}
+
+section{
+    height: 110vh;
+}
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-image: url(./Imagenes/calculadora.jpg)
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 10px 20px;
+   background-color: whitesmoke;
+   border-radius: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+
+}
+section#hero{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+section#hero a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:gray;
+    color: #940253;
+    border: 2px solid #940253;
+    border-radius: 70%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+section#hero a:hover{
+    color: #940253
+    background-color blueviolet;
+    box-shadow:0 20px #940253;
+}
+h1{
+    border: 15px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h2{
+    font-family: "Yellowtail";
+    padding: 15px ;
+    font-size: 2rem;
+    text-align: center;
+}
+.projects-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.project-details{
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px;
+}
+.project-details img{
+    width: 100%;
+}
+section#estudios{
+    background-color:antiquewhite;
+}
+fieldset{
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1cm;
+
+}
+li{
+    margin-top: 8px;
+}
+span{
+    font-weight: bold;
+}
+legend{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+section#projects{
+    background-color:antiquewhite;
+}
+section#Contact{
+    background-color: wheat;
+}
+form{
+    width: 300px;
+    background-color: darkcyan;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
